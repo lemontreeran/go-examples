@@ -8,8 +8,10 @@ func aGoroutine() {
 	done <- true
 }
 
-func main() {
+func main_1() {
 	go aGoroutine()
+
 	<-done
+
 	println(msg)
 }
