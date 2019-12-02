@@ -3,13 +3,14 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	"os"
+	"runtime"
+	"strings"
+
 	"github.com/astaxie/beego/logs"
 	"go-agent.wx/pkg/agent"
 	"go-agent.wx/pkg/config"
 	"go-agent.wx/pkg/util/systemutil"
-	"os"
-	"runtime"
-	"strings"
 )
 
 const (
@@ -24,7 +25,7 @@ func main() {
 
 	runtime.GOMAXPROCS(4)
 
-	// 以agent安装目录为工作目录
+	// 以 agent 安装目录为工作目录
 	workDir := systemutil.GetExecutableDir()
 	err := os.Chdir(workDir)
 	if err != nil {
