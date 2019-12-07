@@ -1,4 +1,4 @@
-![default](https://user-images.githubusercontent.com/5803001/39743428-6fcef14c-52d3-11e8-80fb-ab37240197c8.png)
+<img align="center" src="https://user-images.githubusercontent.com/5803001/39743428-6fcef14c-52d3-11e8-80fb-ab37240197c8.png" />
 
 # godash
 
