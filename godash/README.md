@@ -1,6 +1,6 @@
 <p align="center">
   <img src="https://user-images.githubusercontent.com/5803001/39743428-6fcef14c-52d3-11e8-80fb-ab37240197c8.png">
-  <h1>godash</h1>
+  <h1 align="center">godash</h1>
 </p>
 
 # Motivation & Credits
