@@ -1,4 +1,4 @@
-# gocloc [![travis-ci](https://travis-ci.org/hhatto/gocloc.svg?branch=master)](https://travis-ci.org/hhatto/gocloc) [![Patreon](https://img.shields.io/badge/patreon-become%20a%20patron-red.svg)](https://www.patreon.com/hhatto)
+# gocloc
 
 A little fast [cloc(Count Lines Of Code)](https://github.com/AlDanial/cloc), written in Go.
 Inspired by [tokei](https://github.com/Aaronepower/tokei).
@@ -12,6 +12,7 @@ $ go get -u github.com/hhatto/gocloc/cmd/gocloc
 ## Usage
 
 ### Basic Usage
+
 ```
 $ gocloc .
 ```
@@ -29,6 +30,7 @@ TOTAL                            4             37              1            341
 ```
 
 ### Integration Jenkins CI
+
 use [SLOCCount Plugin](https://wiki.jenkins-ci.org/display/JENKINS/SLOCCount+Plugin).
 
 ```
@@ -46,6 +48,7 @@ $ cat sloccount.scc
 ```
 
 ## Support Languages
+
 use `--show-lang` option
 
 ```
@@ -53,11 +56,12 @@ $ gocloc --show-lang
 ```
 
 ## Performance
-* CPU 3.1GHz Intel Core i7 / 16GB 1600MHz DDR3 / MacOSX 10.11.3
-* cloc 1.66
-* tokei 1.5.1
-* gocloc [6a9d4f5](https://github.com/hhatto/gocloc/commit/6a9d4f5b3d4e5df28fe78a04e8741595e22ada50)
-* target repository is [golang/go commit:633ab74](https://github.com/golang/go/tree/633ab7426a906b72dcf6f1d54e87f4ae926dc4e1)
+
+- CPU 3.1GHz Intel Core i7 / 16GB 1600MHz DDR3 / MacOSX 10.11.3
+- cloc 1.66
+- tokei 1.5.1
+- gocloc [6a9d4f5](https://github.com/hhatto/gocloc/commit/6a9d4f5b3d4e5df28fe78a04e8741595e22ada50)
+- target repository is [golang/go commit:633ab74](https://github.com/golang/go/tree/633ab7426a906b72dcf6f1d54e87f4ae926dc4e1)
 
 ### cloc
 
@@ -166,4 +170,5 @@ gocloc --exclude-ext=txt .  0.76s user 0.15s system 116% cpu 0.775 total
 ```
 
 ## License
+
 MIT
